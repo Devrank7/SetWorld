@@ -1,0 +1,40 @@
+[13Aug2024 13:07:28.295] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, setworld, --all, --output, F:\Downloads\SetWorld\src\generated\resources, --existing, F:\Downloads\SetWorld\src\main\resources, --mixin.config, mixins.setworld.json]
+[13Aug2024 13:07:28.297] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation OpenJDK 64-Bit Server VM 21.0.1+12-29
+[13Aug2024 13:07:28.298] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[13Aug2024 13:07:28.403] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[13Aug2024 13:07:28.510] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/user/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[13Aug2024 13:07:29.305] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[13Aug2024 13:07:29.906] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.setworld.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[13Aug2024 13:07:29.906] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Aug2024 13:07:29.911] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, setworld, --all, --output, F:\Downloads\SetWorld\src\generated\resources, --existing, F:\Downloads\SetWorld\src\main\resources]
+[13Aug2024 13:07:29.929] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[13Aug2024 13:07:29.931] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[13Aug2024 13:07:29.937] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[13Aug2024 13:07:29.938] [main/INFO] [mixin/]: Selecting config mixins.setworld.json
+[13Aug2024 13:07:29.940] [main/WARN] [mixin/]: Reference map 'examplemod.refmap.json' for mixins.setworld.json could not be read. If this is a development environment you can ignore this message
+[13Aug2024 13:07:29.942] [main/INFO] [mixin/]: Preparing mixins.setworld.json (12)
+[13Aug2024 13:07:29.987] [main/WARN] [mixin/]: Mixin environment was unable to detect the current side, sided mixins will not be applied
+[13Aug2024 13:07:30.207] [main/INFO] [mixin/]: Mixing codec.MixByteByfCodecs from mixins.setworld.json into net.minecraft.network.codec.ByteBufCodecs
+[13Aug2024 13:07:30.210] [main/WARN] [mixin/]: mixins.setworld.json:codec.MixByteByfCodecs: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[13Aug2024 13:07:30.281] [main/INFO] [mixin/]: Mixing codec.MixRegistery from mixins.setworld.json into net.minecraft.core.Registry
+[13Aug2024 13:07:30.290] [main/INFO] [mixin/]: Mixing codec.MixMappedReg from mixins.setworld.json into net.minecraft.core.MappedRegistry
+[13Aug2024 13:07:30.296] [main/INFO] [mixin/]: Renaming synthetic method lambda$register$0(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/Holder$Reference; to md3b9ddb$lambda$register$0$0 in mixins.setworld.json:codec.MixMappedReg
+[13Aug2024 13:07:30.571] [main/INFO] [mixin/]: Mixing MixItem from mixins.setworld.json into net.minecraft.world.item.Item
+[13Aug2024 13:07:34.309] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.32, for MC 1.21 with MCP 20240613.102039
+[13Aug2024 13:07:34.310] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.32 Initialized
+[13Aug2024 13:07:34.329] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[13Aug2024 13:07:34.772] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [setworld]
+[13Aug2024 13:07:34.778] [Worker-Main-1/INFO] [mixin/]: Mixing worldgen.noise.MixNoiseRouterData from mixins.setworld.json into net.minecraft.world.level.levelgen.NoiseRouterData
+[13Aug2024 13:07:34.780] [Worker-Main-1/INFO] [mixin/]: Renaming synthetic method lambda$custom_overworld_large$3(Lcom/example/setworld/VeinType;)I to md3b9ddb$lambda$custom_overworld_large$3$0 in mixins.setworld.json:worldgen.noise.MixNoiseRouterData
+[13Aug2024 13:07:34.780] [Worker-Main-1/INFO] [mixin/]: Renaming synthetic method lambda$custom_overworld_large$2(Lcom/example/setworld/VeinType;)I to md3b9ddb$lambda$custom_overworld_large$2$1 in mixins.setworld.json:worldgen.noise.MixNoiseRouterData
+[13Aug2024 13:07:34.780] [Worker-Main-1/INFO] [mixin/]: Renaming synthetic method lambda$overworld_large$1(Lcom/example/setworld/VeinType;)I to md3b9ddb$lambda$overworld_large$1$2 in mixins.setworld.json:worldgen.noise.MixNoiseRouterData
+[13Aug2024 13:07:34.780] [Worker-Main-1/INFO] [mixin/]: Renaming synthetic method lambda$overworld_large$0(Lcom/example/setworld/VeinType;)I to md3b9ddb$lambda$overworld_large$0$3 in mixins.setworld.json:worldgen.noise.MixNoiseRouterData
+[13Aug2024 13:07:34.875] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.32_mapped_official_1.21/forge-1.21-51.0.32_mapped_official_1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[13Aug2024 13:07:34.876] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.32_mapped_official_1.21/forge-1.21-51.0.32_mapped_official_1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[13Aug2024 13:07:34.958] [main/INFO] [mixin/]: Mixing provider.MixWorldPresetTagsProvider from mixins.setworld.json into net.minecraft.data.tags.WorldPresetTagsProvider
+[13Aug2024 13:07:34.973] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[13Aug2024 13:07:35.287] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 314 ms
+[13Aug2024 13:07:35.287] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:worldgen/world_preset mod id setworld
+[13Aug2024 13:07:35.293] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:worldgen/world_preset mod id setworld finished after 5 ms
+[13Aug2024 13:07:35.293] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 320 ms
+[13Aug2024 13:07:35.296] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 75, old count: 75, new count: 76, removed stale: 0, written: 0

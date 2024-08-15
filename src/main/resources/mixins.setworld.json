@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.setworld.mixins",
+  "refmap": "examplemod.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixItem",
+    "codec.MixByteByfCodecs",
+    "codec.MixHolderRef",
+    "codec.MixMappedReg",
+    "codec.MixRegistery",
+    "forge.MixPresentEditor",
+    "noise.MixBiomeGenerationSettings",
+    "noise.MixCaveWorldCarver",
+    "noise.MixNoiseBasedChunkGenerator",
+    "noise.MixPlainBuilder",
+    "noise.MixRandomState",
+    "provider.MixWorldPresetTagsProvider",
+    "worldgen.dimension.MixWorldDimension",
+    "worldgen.noise.MixNoiseRouterData"
+  ],
+  "client": [
+    "screen.MixCreateWorldScreen",
+    "screen.ui.MixCreateUI",
+    "screen.ui.MixWorldTypeEntry"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
